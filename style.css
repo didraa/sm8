@@ -1,0 +1,47 @@
+.block {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #C0C0C0;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+
+
+.block__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.block__name {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block__text {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block__date, .block__id {
+    color: #C0C0C0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block__author {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
